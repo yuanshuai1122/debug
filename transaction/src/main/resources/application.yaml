@@ -1,0 +1,9 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bj-cynosdbmysql-grp-o9u7ldum.sql.tencentcdb.com:21457/debug_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: hh%Gy&rTYM@oepc6
+    type: com.alibaba.druid.pool.DruidDataSource
